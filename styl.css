@@ -276,7 +276,7 @@ body{
     font-size: 1vw;
 }
 .equalizer{
-    position:fixed;
+    position:absolute;
     right:18vw;
     bottom:12vh;
     height:4vh;
