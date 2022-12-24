@@ -276,12 +276,14 @@ body{
     font-size: 1vw;
 }
 .equalizer{
-    position:absolute;
-    right:18vw;
-    bottom:12vh;
-    height:4vh;
+        height:3vh;
+        width:5vw;
+        position:relative;
+        right:-2vw;
+        bottom:0vh;
+        transition: opacity 1s ease-in-out ;
+    }
     
-}
 .timestamp{
     margin:0 3vh;
     -webkit-text-fill-color: black;
