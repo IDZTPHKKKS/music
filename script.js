@@ -190,6 +190,7 @@ document.getElementById('prev').addEventListener('click',()=>{
     }
     audioElement.src = `${songIndex+1}.mp3`;
     audioElement.play();
+    songSubtitle.innerText=songs[songIndex].songname;
     audioElement.currentTime=0;
     audioElement.classList.remove('fa-circle-play');
     audioElement.classList.add('fa-circle-pause');
