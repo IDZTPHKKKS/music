@@ -278,9 +278,9 @@ body{
 .equalizer{
         height:3vh;
         width:5vw;
-        position:relative;
-        right:-2vw;
-        bottom:0vh;
+        position:fixed;
+        right:18vw;
+        bottom:13vh;
         transition: opacity 1s ease-in-out ;
     }
     
